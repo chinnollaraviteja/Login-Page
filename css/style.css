@@ -1,0 +1,52 @@
+
+body {
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #5a7fa4; /* Fallback background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Styling for the container */
+.container {
+    max-width: 600px; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 30px; /* Increase padding for more space */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the heading inside the container */
+.container h2 {
+    text-align: center;
+    font-size: 28px; /* Increase font size for heading */
+    color: #333; /* Text color */
+}
+
+/* Styling for form input fields */
+.form-control {
+    margin-bottom: 15px;
+    font-size: 20px; /* Increase font size for input fields */
+}
+
+/* Styling for the primary button */
+.btn-primary {
+    width: 100%;
+    font-size: 20px; /* Increase font size for the button */
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust margin to create space below the logo */
+}
+
+.logo img {
+    max-width: 100%; /* Ensure the logo doesn't exceed its container's width */
+}
+
+
